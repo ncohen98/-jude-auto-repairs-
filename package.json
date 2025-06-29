@@ -2,10 +2,10 @@
   "name": "expo-app",
   "main": "expo-router/entry",
   "version": "1.0.0",
-  "scripts": {
-    "start": "bunx rork start -p sg6l4j70pjs62rciq0t7u --tunnel",
-    "start-web": "bunx rork start -p sg6l4j70pjs62rciq0t7u --web --tunnel",
-    "start-web-dev": "DEBUG=expo* bunx rork start -p sg6l4j70pjs62rciq0t7u --web --tunnel"
+   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
