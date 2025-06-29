@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Phone, MessageCircle } from 'lucide-react';
+import { Phone, MessageCircle } from 'lucide-react-native';
 import { services } from '@/data/services';
 import styles from './services.module.css';
 

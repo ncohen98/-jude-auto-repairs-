@@ -1,4 +1,4 @@
-import { MapPin, Phone, Clock, Mail, MessageCircle } from 'lucide-react';
+import { MapPin, Phone, Clock, Mail, MessageCircle } from 'lucide-react-native';
 import ContactForm from '@/components/ContactForm';
 
 export default function ContactPage() {
