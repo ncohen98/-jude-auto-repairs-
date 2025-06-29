@@ -22,9 +22,9 @@ export default function ServiceDetailPage({ params }: { params: { id: string } }
         <Image 
           src={service.image} 
           alt={service.title}
-          layout="fill"
-          objectFit="cover"
-          className="absolute inset-0"
+          width={1050}
+          height={700}
+          className="absolute inset-0 object-cover"
         />
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="container mx-auto px-4 py-16 h-full flex flex-col justify-center relative z-10">
