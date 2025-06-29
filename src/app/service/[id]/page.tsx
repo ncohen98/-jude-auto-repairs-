@@ -15,7 +15,7 @@ export default function ServiceDetailPage({ params }: { params: { id: string } }
   }
   
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-gray-50">
       <Header />
       
       <section className="relative h-64 overflow-hidden">
@@ -43,8 +43,8 @@ export default function ServiceDetailPage({ params }: { params: { id: string } }
             Our certified mechanics use state-of-the-art equipment to ensure your vehicle receives the best care possible.
           </p>
           
-          <div className="bg-blue-50 p-6 rounded-lg mb-8">
-            <h3 className="text-xl font-semibold text-blue-700 mb-3">Mobile Service</h3>
+          <div className="bg-[#A0C1E5] bg-opacity-10 p-6 rounded-lg mb-8">
+            <h3 className="text-xl font-semibold text-[#A0C1E5] mb-3">Mobile Service</h3>
             <p className="text-gray-700">
               We come to your home or workplace, saving you time and hassle. No need to arrange transportation to a garage - 
               our fully equipped mobile units bring the workshop to you.
@@ -52,10 +52,10 @@ export default function ServiceDetailPage({ params }: { params: { id: string } }
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/contact" className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold text-center transition-colors">
+            <Link href="/contact" className="bg-[#A0C1E5] hover:bg-[#8BAFD8] text-white px-6 py-3 rounded-lg font-semibold text-center transition-colors">
               Book this Service
             </Link>
-            <Link href="/services" className="bg-white hover:bg-gray-100 border border-blue-700 text-blue-700 px-6 py-3 rounded-lg font-semibold text-center transition-colors">
+            <Link href="/services" className="bg-white hover:bg-gray-100 border border-[#A0C1E5] text-[#A0C1E5] px-6 py-3 rounded-lg font-semibold text-center transition-colors">
               View All Services
             </Link>
           </div>
@@ -82,13 +82,13 @@ export default function ServiceDetailPage({ params }: { params: { id: string } }
         </div>
       </section>
       
-      <section className="bg-blue-700 py-16 mb-16 mx-4 md:mx-8 rounded-lg">
+      <section className="bg-[#A0C1E5] py-16 mb-16 mx-4 md:mx-8 rounded-lg">
         <div className="container mx-auto px-4 text-center text-white">
           <h2 className="text-3xl font-bold mb-4">Need {service.title}?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
             Contact us today to schedule mobile service at your location. We provide fast, reliable repairs with upfront pricing.
           </p>
-          <Link href="/contact" className="bg-white text-blue-700 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition-colors">
+          <Link href="/contact" className="bg-white text-[#A0C1E5] hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition-colors">
             Get a Quote
           </Link>
         </div>

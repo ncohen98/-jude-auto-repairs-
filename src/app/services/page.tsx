@@ -8,7 +8,7 @@ import ServiceCard from '@/components/ServiceCard';
 
 export default function ServicesPage() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-gray-50">
       <Header />
       
       <section className="relative h-64 overflow-hidden">
@@ -41,13 +41,13 @@ export default function ServicesPage() {
         </div>
       </section>
       
-      <section className="bg-blue-700 py-16 mb-16 mx-4 md:mx-8 rounded-lg">
+      <section className="bg-[#A0C1E5] py-16 mb-16 mx-4 md:mx-8 rounded-lg">
         <div className="container mx-auto px-4 text-center text-white">
           <h2 className="text-3xl font-bold mb-4">Need a specific repair?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto">
             Contact us for specialized services or to discuss your vehicle issues. We provide personalized solutions at your location.
           </p>
-          <Link href="/contact" className="bg-white text-blue-700 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition-colors">
+          <Link href="/contact" className="bg-white text-[#A0C1E5] hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition-colors">
             Get a Quote
           </Link>
         </div>

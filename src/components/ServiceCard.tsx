@@ -35,8 +35,8 @@ export default function ServiceCard({ id, title, description, icon, image, compa
   if (compact) {
     return (
       <Link href={`/service/${id}`} className="flex bg-white rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow">
-        <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-3 text-blue-700 flex-shrink-0">
-          {getIcon(icon, 24, 'text-blue-700')}
+        <div className="w-10 h-10 rounded-full bg-[#A0C1E5] flex items-center justify-center mr-3 text-white flex-shrink-0">
+          {getIcon(icon, 24, 'text-white')}
         </div>
         <div className="flex-1">
           <h3 className="text-lg font-semibold text-gray-800 mb-1 line-clamp-1">{title}</h3>
@@ -57,8 +57,8 @@ export default function ServiceCard({ id, title, description, icon, image, compa
       />
       <div className="absolute inset-0 bg-black bg-opacity-50 transition-opacity group-hover:bg-opacity-60"></div>
       <div className="p-4 flex flex-col justify-end h-full relative z-10">
-        <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-3 text-blue-700">
-          {getIcon(icon, 24, 'text-blue-700')}
+        <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-3 text-[#A0C1E5]">
+          {getIcon(icon, 24, 'text-[#A0C1E5]')}
         </div>
         <h3 className="text-xl font-bold text-white mb-2">{title}</h3>
         <p className="text-white text-sm line-clamp-2">{description}</p>

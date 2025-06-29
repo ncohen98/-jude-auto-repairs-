@@ -42,7 +42,7 @@ export default function ContactForm() {
             placeholder="Your Name"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#A0C1E5]"
           />
         </div>
         
@@ -52,7 +52,7 @@ export default function ContactForm() {
             placeholder="Email Address"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#A0C1E5]"
           />
         </div>
         
@@ -62,7 +62,7 @@ export default function ContactForm() {
             placeholder="Phone Number"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#A0C1E5]"
           />
         </div>
         
@@ -72,14 +72,14 @@ export default function ContactForm() {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             rows={4}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-700"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#A0C1E5]"
           />
         </div>
         
         <button 
           type="submit"
           disabled={loading}
-          className="flex items-center justify-center bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition-colors w-full md:w-auto"
+          className="flex items-center justify-center bg-[#A0C1E5] hover:bg-[#8BAFD8] text-white px-6 py-3 rounded-lg font-semibold transition-colors w-full md:w-auto"
         >
           {loading ? (
             <div className="h-5 w-5 border-2 border-white border-t-transparent rounded-full animate-spin mr-2"></div>
@@ -90,7 +90,7 @@ export default function ContactForm() {
         </button>
       </form>
       
-      <div className="mt-6 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-700">
+      <div className="mt-6 p-4 bg-[#A0C1E5] bg-opacity-10 rounded-lg border-l-4 border-[#A0C1E5]">
         <p className="text-sm text-gray-700">
           Note: This is a mobile service - we come to your location in North West London and surrounding areas.
         </p>

@@ -12,7 +12,7 @@ export default function TestimonialCard({ name, text, rating }: TestimonialCardP
   return (
     <div className="bg-white rounded-lg shadow-sm p-4 w-72 flex-shrink-0">
       <div className="flex items-center mb-3">
-        <div className="w-10 h-10 rounded-full bg-blue-700 flex items-center justify-center mr-3 text-white font-bold text-lg">
+        <div className="w-10 h-10 rounded-full bg-[#A0C1E5] flex items-center justify-center mr-3 text-white font-bold text-lg">
           {name.charAt(0)}
         </div>
         <div>
@@ -22,7 +22,7 @@ export default function TestimonialCard({ name, text, rating }: TestimonialCardP
               <Star
                 key={i}
                 size={16}
-                className={i < rating ? 'text-orange-500 fill-orange-500' : 'text-gray-300'}
+                className={i < rating ? 'text-[#F4C7AB] fill-[#F4C7AB]' : 'text-gray-300'}
               />
             ))}
           </div>

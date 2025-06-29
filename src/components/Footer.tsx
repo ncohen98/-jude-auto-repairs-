@@ -23,19 +23,19 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex items-center gap-3">
-                <MapPin size={20} className="text-orange-500" />
+                <MapPin size={20} className="text-[#F4C7AB]" />
                 <span className="text-gray-300">North West London</span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone size={20} className="text-orange-500" />
+                <Phone size={20} className="text-[#F4C7AB]" />
                 <a href="tel:+442012345678" className="text-gray-300 hover:text-white transition-colors">+44 20 1234 5678</a>
               </li>
               <li className="flex items-center gap-3">
-                <Mail size={20} className="text-orange-500" />
+                <Mail size={20} className="text-[#F4C7AB]" />
                 <a href="mailto:info@judeautorepairs.co.uk" className="text-gray-300 hover:text-white transition-colors">info@judeautorepairs.co.uk</a>
               </li>
               <li className="flex items-center gap-3">
-                <MessageCircle size={20} className="text-orange-500" />
+                <MessageCircle size={20} className="text-[#F4C7AB]" />
                 <a href="https://wa.me/442012345678" className="text-gray-300 hover:text-white transition-colors">WhatsApp Us</a>
               </li>
             </ul>
