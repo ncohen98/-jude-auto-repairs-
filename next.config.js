@@ -5,7 +5,9 @@ module.exports = withExpo({
   images: {
     domains: ['images.unsplash.com'],
   },
-  experimental: {
-   // appDir: true,  // enable Next.js App Router (app folder)
-  },
+    experimental: {
+    appDir: true,
+    },
+    projectRoot: './src',
+
 });
