@@ -51,9 +51,9 @@ export default function ServiceCard({ id, title, description, icon, image, compa
       <Image 
         src={image} 
         alt={title}
-        layout="fill"
-        objectFit="cover"
-        className="absolute inset-0 transition-transform group-hover:scale-105"
+        width={800}
+        height={600}
+        className="absolute inset-0 object-cover transition-transform group-hover:scale-105"
       />
       <div className="absolute inset-0 bg-black bg-opacity-50 transition-opacity group-hover:bg-opacity-60"></div>
       <div className="p-4 flex flex-col justify-end h-full relative z-10">

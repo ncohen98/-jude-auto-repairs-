@@ -5,6 +5,7 @@ type TestimonialCardProps = {
   name: string;
   text: string;
   rating: number;
+  id?: number;
 };
 
 export default function TestimonialCard({ name, text, rating }: TestimonialCardProps) {
