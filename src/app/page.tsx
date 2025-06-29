@@ -68,3 +68,20 @@ export default function ContactPage() {
 
         <div className="bg-white rounded-lg shadow-md p-6">
           <div className="flex flex-col items-center text-center">
+            <div className="w-12 h-12 rounded-full bg-primary bg-opacity-10 flex items-center justify-center mb-4">
+              <Clock size={24} className="text-primary" />
+            </div>
+            <h3 className="font-semibold mb-2">Business Hours</h3>
+            <p className="text-gray-600 mb-1">Monday - Friday: 8:00 AM - 6:00 PM</p>
+            <p className="text-gray-600 mb-1">Saturday: 9:00 AM - 4:00 PM</p>
+            <p className="text-gray-600">Sunday: Closed</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-white rounded-lg shadow-md p-8">
+        <ContactForm />
+      </div>
+    </div>
+  );
+}
